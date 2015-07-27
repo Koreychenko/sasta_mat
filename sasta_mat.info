@@ -1,0 +1,11 @@
+name = Sastatsoft Meterialize Drupal Theme
+description = A multi-column theme which can be configured to modify colors and switch between fixed and fluid width layouts.
+package = Core
+version = VERSION
+core = 7.x
+
+stylesheets[all][] = materialize/css/materialize.min.css
+
+scripts[] = materialize/js/materialize.min.js
+
+plugins[panels][layouts] = templates/panels
